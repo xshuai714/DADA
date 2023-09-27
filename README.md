@@ -10,7 +10,8 @@
   <a href="#results">Results</a> |
   <a href="#preparation">Preparation</a> |
   <a href="#code">Code</a> |
-  <a href="#statement">Statement</a>
+  <a href="#acknowledgments">Acknowledgments</a> |
+  <a href="#citing">Citing</a>
 </p>
 
 ## News
@@ -26,17 +27,40 @@ Video-text retrieval aims at returning the most semantically relevant videos giv
 ![the framework figure](./figs/framework.jpg "framework")
 ## Results
 ![the result figure](./figs/result.jpg "results")
-### Quantitative results on Nuscenes validation set
+### Quantitative results
 ![quantitative figure](./figs/quantitative.jpg "quantitative-results")
 
 ## Preparation
-
 ### Prerequisites
-
+The code is built with the following libraries:
+* Python 3.7
+* Pytorch 1.4.0
+* Transformers 3.1.0
+* Numpy 1.18.1
 ### Data Preparation
+* The official data and video links can be found at https://github.com/ArrowLuo/CLIP4Clip/.
+* Pre-trained features on MSRVTT, TGIF, and MSVD datasets can be downloaded from https://github.com/cshizhe/hgr_v2t.
 
 ## Code
 ### Codes coming soon...
 
-## Statement
+## Acknowledgments
+Some components of this code implementation are adopted from HGR, GPO, CE, MMT, CLIP4Clip, and CLIP2Video. We sincerely appreciate their contributions.
+* HGR: https://github.com/cshizhe/hgr_v2t
+* GPO :https://github.com/woodfrog/vse_infty
+* CE: https://github.com/albanie/collaborative-experts
+* MMT :https://github.com/gabeur/mmt
+* CLIP4Clip: https://github.com/ArrowLuo/CLIP4Clip/
+* CLIP2Video: https://github.com/CryhanFang/CLIP2Video
 
+## Citing
+
+If you find DADA++ useful in your research, please kindly consider citing the following paper.
+```
+@article{hao2023dada++,
+title={DADA++: Dual Alignment Domain Adaptation for Unsupervised Video-Text Retrieval},
+author={Xiaoshuai Hao, Haimei Zhao, Hui Zhang, Wanqian Zhang, Jing Zhang},
+journal={arXiv preprint arXiv:xxxx.xxxxx},
+year={2023}
+}
+```
