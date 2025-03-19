@@ -2,7 +2,7 @@
 <p align="center">
 <a href=""><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a>
 <h4 align="center">This is the official repository of the paper <a href="">DADA++: Dual Alignment Domain Adaptation for Unsupervised Video-Text Retrieval</a>.</h4>
-<h5 align="center"><em>Xiaoshuai Hao, Haimei Zhao, Yunfeng Diao, Rong Yin, Jing Zhang, Wanqian Zhang and Zhenzhen Hu</em></h5>
+<h5 align="center"><em>Xiaoshuai Hao, Haimei Zhao, Yunfeng Diao, Rong Yin, Jing Zhang and Wanqian Zhang </em></h5>
 <p align="center">
   <a href="#news">News</a> |
   <a href="#abstract">Abstract</a> |
